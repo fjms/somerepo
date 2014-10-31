@@ -23,9 +23,9 @@ class TestDepartamento(TestCase):
         pepe = mock(Empleado)
         fran = mock(Empleado)
         juan = mock(Empleado)
-        when(pepe).get_salario_mensual().thenReturn(1000)
+        when(pepe).get_salario_mensual().thenReturn(2000)
         when(fran).get_salario_mensual().thenReturn(2000)
         when(juan).get_salario_mensual().thenReturn(2500)
         dep = Departamento("RRHH", 001)
         dep.listaEmpleados = [pepe, fran, juan]
-        self.assertEqual(dep.get_salario_total_mensual(),5500)
+        self.assertEqual(dep.get_salario_total_mensual(), 5500)
