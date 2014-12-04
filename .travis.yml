@@ -18,3 +18,11 @@ script:
     - radon cc tests/.
     - radon mi tests/.
     - radon raw tests/.
+    - py.test --cov . --cov-report term-missing
+after_success:
+    - coveralls
+notifications:
+    email:
+        recipients:
+            - fj.moron@gmail.com
+        on_failure: always
