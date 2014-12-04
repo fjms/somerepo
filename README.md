@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/fjms/somerepo.svg?branch=master)](https://travis-ci.org/fjms/somerepo)
