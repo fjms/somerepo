@@ -53,7 +53,8 @@ class Departamento:
 
     def get_salario_total_mensual(self):
         """
-        Devuelve el salario total mensual de todos los empleados del departamento
+        Devuelve el salario total mensual de todos los empleados del
+        departamento
 
         :return: Salario total mensual de todos los empleados
         :rtype: Float

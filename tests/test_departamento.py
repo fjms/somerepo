@@ -32,7 +32,8 @@ class TestDepartamento(TestCase):
 
     def test_get_salario_total_mensual(self):
         """
-        Comprueba la funcionalidad get_salario_total_mensual de la clase Departamento
+        Comprueba la funcionalidad get_salario_total_mensual de la clase
+        Departamento
 
         :return: None
         """
