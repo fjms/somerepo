@@ -11,10 +11,10 @@ install:
     - pip install radon
 script:
     - pep8 src/.
-    - pep8 test/.
+    - pep8 tests/.
     - radon cc src/.
     - radon mi src/.
     - radon raw src/.
-    - radon cc test/.
-    - radon mi test/.
-    - radon raw test/.
+    - radon cc tests/.
+    - radon mi tests/.
+    - radon raw tests/.
